@@ -1,0 +1,377 @@
+body{
+    background-color: antiquewhite;
+}
+header{
+    background-image: url(images/cofee\ 2.png);
+    background-size: 100%;
+    padding: 56px;
+    margin: 100px 40px 100px 40px;
+    border-radius: 9px;
+}
+.Rut{
+    display: flex; 
+    padding-bottom: 255px;
+    color: azure;
+}
+.Rut>li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HList{
+    margin: 0;
+    font-size: 17px;
+    display: flex;
+    list-style: none;
+    width: 80%;
+    justify-content: space-evenly;
+}
+#Logo{
+    font-size: 19px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 20%;
+    margin: 0 100px 0 100px;
+    padding-bottom: 40px;
+}
+.HLinks{
+    color: aliceblue;
+    margin: 0 0 40px 30px;
+}
+.HLinks>p{
+    margin: 0;
+    font-size: 25px;
+}
+input{
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    border: 0px black solid;
+    background-color: rgb(255, 140, 0);
+    margin: 10px 0 0 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.top>input:hover{
+    transition: 1s;
+    background-color: bisque;
+    transform: scale(1.3);
+}
+.tour{
+    margin: 0 0 40px  250px;
+}
+.top{
+    display: flex;
+}
+.top>img{
+    margin: 0 0 40px 0;
+}
+.tyr{
+    padding: 90px;
+    background-color: azure;
+    width: 1207px;
+    height: 900px;
+    padding: 100px;
+    border-radius: 9px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card1{
+    margin: 10px 0 0 50px;
+    background-color: rgba(112, 108, 108, 0.568);
+    width: 180px;
+    height: 330px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.card1>input:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    color: azure;
+    background-color: black;
+}
+.card1>img{
+    width:  170px;
+    height: 200px;
+    margin: 10px 0 0 2px;
+    border-radius: 5px;
+}
+.cards{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    margin: 10px 0 0 0;
+    
+}
+.cards>img{
+    border-radius: 10px;
+    width: 230px;
+    height: 170px;
+}
+.card2{
+    font-size: 25px;
+    
+}
+.card3>input{
+    width: 100px;
+    height: 30px;
+
+}
+.card3>input:hover{
+    transition: 1s;
+    color: black;
+    background-color: bisque;
+    border: black solid 1px;
+}
+.cards2{
+    background-color: azure;
+    width: 1400px;
+    height: 600px;
+    border-radius: 10px;
+}
+.MCards{
+    width: 1207px;
+    height: 300px;
+    background-color: aliceblue;
+    padding: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+}
+.MCards>div{
+    width: 300px;
+    height: 200px;
+    background-color: rgba(109, 107, 100, 0.39);
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    color: rgb(57, 63, 68);
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3px 0 3px;
+    border-radius: 10px;
+}
+.MCards3{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(109, 107, 100, 0.39);
+}
+.MCards1>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.MCards2>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.MCards3>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.cards3{
+    margin: 150px 0 0 40%;
+    font-size: 30px;
+}
+.cards1{
+    color:rgba(85, 78, 78, 0.445);
+    font-size: 15px;
+}
+.tyw>input{
+    padding: 15px;
+    border-radius: 20px;
+    width: 200px;
+    display: flex;
+}
+input:hover{
+    transition: 0s;
+    transform: scale(1);
+    background-color: rgb(255, 255, 255);
+}
+.tyw2>input:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.div1{
+    width: 1207px;
+    height: 300px;
+    background-image: url(images/registr.png);
+    background-size: 100%;
+    padding: 100px;
+    margin: 50px 0px 0 190px;
+    border-radius: 10px;
+    display: flex; 
+    color: rgba(240, 255, 255, 0.74);
+}
+#Logo2{
+    font-size: 19px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 20%;
+    margin: 0 100px 0 100px;
+    padding-bottom: 40px;
+}
+.HList2{
+    margin: 20px 0 0 0;
+    font-size: 17px;
+    list-style: none;
+    width: 80%;
+    justify-content: space-evenly;
+}
+li{
+    margin: 20px 0 0 0;
+}
+.div6>img{
+    margin: 10px 0 0 0;
+    border-radius: 100%;
+}
+@media (max-width: 1348px) {
+    header{
+        background-image: url(images/cofee\(header\).png);
+        background-size: 100%;
+        height:  450px;
+        width: 900px;
+        border-radius: 9px;
+    }
+    .HLinks{
+        color: aliceblue;
+        padding-bottom: 200px;
+    }
+    .tour{
+      margin: 40px 0 30px 140px;
+    }
+    .tyr{
+        padding: 90px;
+        background-color: azure;
+        width: 900px;
+        height: 2000px;
+        padding: 50px;
+        border-radius: 9px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+        margin: 100px 50px 10px 200x;
+    }
+    .cards>img{
+        margin: 0 100px 0 100px;
+    }
+    .MCards{
+         flex-wrap: wrap;
+         margin: 0 50px 0 50px;
+         width: 800px;
+         height: 600px;
+         background-color: aliceblue;
+         padding: 100px;
+         display: flex;
+         justify-content: space-evenly;
+         border-radius: 10px;
+    }
+    .div1{
+        width: 100px;
+        height: 100px;
+        background-image: url(images/registr.png);
+        background-size: 100%;
+        padding: 60px;
+        border-radius: 10px;
+        display: flex; 
+        color: rgba(240, 255, 255, 0.74);
+    }
+}
+@media(max-width: 1140x){
+    header{
+        background-image: url(images/cofee\(header\).png);
+        background-size: 0%;
+        height: 900px;
+        width: px;
+        margin: 0 10px 0 50px;
+        border-radius: 9px;
+        margin: 100px 0px 100px 0px;
+    }
+    .div1{
+        width: 1207px;
+        height: 335px;
+        background-image: url(images/registr.png);
+        justify-content: center;
+        background-size: 100%;
+        padding: 100px;
+        margin: 70px 0 0 70px;
+        border-radius: 10px;
+        display: inline-block;
+        color: rgb(240, 255, 255);
+    }
+}
+@media(max-width: 1656px){
+    .div1{
+        margin: 70px 0 0 70px;
+        width: 800px;
+        height: 335px;
+    }
+    .tour{
+        display: flex;
+        justify-content: center;
+    }
+    .HList2{
+        padding: 10px;
+    }
+}
+@media(max-width: 1336px){
+    header{
+        background-image: url(images/cofee\(header\).png);
+        background-size: 100%;
+        height:  450px;
+        width: 900px;
+        border-radius: 9px;
+        margin-left: 120px;
+    }
+   .tour{
+    margin-left: 190px;
+   }
+   .div1{
+    margin-left: 190px;
+   }
+}
+@media(max-width: 1236px){
+    .tour{
+        margin-left: 150px;
+    }
+}
+@media(max-width: 1120px){
+    .div1{
+        margin-left: 120px;
+    }
+    header{
+        margin: 100px 40px 100px 40px;
+    }
+}
+@media(max-width: 996px){
+    header{
+        background-image: url(images/cofee\(header\).png);
+        background-size: 100%;
+        height:  450px;
+        width: 900px;
+        border-radius: 9px;
+        margin-left: 20px;
+    }
+   .tour{
+    margin-left: 100px;
+   }
+   .div1{
+    margin-left: 100px;
+   }
+   .MCards{
+    margin-left: 2 0px;
+   }
+}
+@media(max-width: 996px){
+   .div1{
+    margin-left:50px;
+   }
+   
+}
+
+    
